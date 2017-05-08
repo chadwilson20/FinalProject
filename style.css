@@ -1,1 +1,99 @@
 /* Author: Chad Wilson */
+/* Color Palette adapted from:
+http://www.colourlovers.com/palette/137885/Grey_Toad */
+body {
+  background-color: rgb(247, 247, 247);
+}
+.first-main-page-letter-color {
+  color: rgb(62, 63, 65);
+}
+.text-align {
+  text-align: center;
+}
+.p-outside-of-divs {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+}
+.center-divs {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  height: 15em;
+  background-color: rgb(161, 155, 136);
+}
+.div-text-color {
+  color: rgb(247, 247, 247);
+}
+.textarea-align {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-button-align {
+  display: block;
+  margin-left: 480px;
+  margin-right: auto;
+}
+.bottom-divs {
+  width: 100%;
+  height: 10em;
+  background-color: rgb(44, 41, 24);
+}
+.bottom-divs-p-color {
+  color: rgb(161, 155, 136);
+}
+.bottom-div-style {
+  width: 25%;
+  float: left;
+}
+#main-div-style {
+  width: 50%;
+  float: left;
+}
+#page-3-center-div-1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  height: 25em;
+  background-color: rgb(161, 155, 136);
+}
+.page-3-header-in-divs {
+  color: rgb(247, 247, 247);
+}
+#page-3-center-div-2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  height: 20em;
+  background-color: rgb(161, 155, 136);
+}
+.page-3-text-align {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.divs-with-spans {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-in-divs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+  display: none;
+  position: relative;
+}
+h1{
+  font-family: "Georgia", serif;
+}
+h3 {
+  font-family: "Georgia", serif;
+}
+p {
+  font-family: "Arial", sans-serif;
+}

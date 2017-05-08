@@ -1,12 +1,100 @@
 <!DOCTYPE html>
+<!-- Inspiration by:
+https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/a-guessing-game -->
 <!-- Author: Chad Wilson -->
 <html>
   <head>
-    <title></title>
+    <title>Linear Search</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="index.js"></script>
   </head>
   <body lang="en-US">
+    <h1 class="first-main-page-letter-color text-align">
+      Linear Search
+    </h1>
+    <h3 class="first-main-page-letter-color text-align">
+      Number Guessing Game
+    </h3>
+    <p class="first-main-page-letter-color p-outside-of-divs">
+      Odds are, you have seen some kind of number guessing game at least
+      once in your life. So, let's have a crack at one. Go ahead and try
+      to guess the number that the computer has randomly selected.
+    </p>
+    <nav>
+      <div class="center-divs">
+        <h3 class="text-align div-text-color">
+          Click the button below to start the number guessing game
+        </h3>
+        <br>
+        <input type="button" value="Click To Play!" class="button-in-divs" onclick="FirstGame();">
+      </div>
+    </nav>
+    <p class="first-main-page-letter-color p-outside-of-divs">
+      What technique did you use (if any) to try to guess what the number was?
+    </p>
+    <div class="text-align">
+      <textarea rows="3" cols="50" class="textarea-align" id="answer1"></textarea>
+      <input type="button" value="Submit" class="input-button-align" onclick="textBoxOne();">
+      <div class="divs-with-spans text-align">
+        <span id="incorrectans1" class="first-main-page-letter-color">
+          incorrect input placeholder
+        </span>
+        <span id="correctans1" class="first-main-page-letter-color">
+          correct input holder
+        </span>
+      </div>
+    </div>
+    <br>
+    <br>
+    <p class="first-main-page-letter-color p-outside-of-divs">
+      If I had to guess, you probably just guessed from 1, 2, 3,... etc. This
+      is what we call <b>Linear Search.</b>
+    </p>
+    <p class="first-main-page-letter-color p-outside-of-divs">
+      Go to page 2 to learn about <b>Binary Search.</b>
+    </p>
+    <br>
+    <br>
+    <nav>
+      <div class="bottom-divs">
+        <div class="bottom-div-style text-align bottom-divs-p-color">
+          <br>
+          <h2>
+            Linear
+          </h2>
+          <h2>
+            Search
+          </h2>
+        </div>
+        <div id="main-div-style" class="text-align">
+        <p class="bottom-divs-p-color">
+          Links:
+        </p>
+        <a href="index.html" class="bottom-divs-p-color">
+          Page 1
+        </a>
+        <br>
+        <br>
+        <a href="page2.html" class="bottom-divs-p-color">
+          Page 2
+        </a>
+        <br>
+        <br>
+        <a href="page3.html" class="bottom-divs-p-color">
+          Page 3
+        </a>
+        </div>
+        <div class="bottom-div-style">
+          <br>
+          <img src="http://csharpcorner.mindcrackerinc.netdna-cdn.com/UploadFile/433c33/linear-search-in-java/Images/linear-search.gif"
+            alt="Linear Search Image" style="width: 300px; height: 115px;">
+          <a href="http://www.c-sharpcorner.com/UploadFile/433c33/linear-search-in-java/"
+            target="_blank" class="bottom-divs-p-color">
+            [Image Source]
+          </a>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
