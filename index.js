@@ -44,7 +44,6 @@ var numbers = [1, 10, 200];
 
   function randomNumberGenerator2() {
     var comp_num = Math.floor((Math.random() * 200) + 1);
-    console.log(comp_num);
     return comp_num;
   }
 
